@@ -38,9 +38,11 @@ public class App {
                     }
                 }
             }
-        } 
-
-
+        } elseif (gameStartChoice.toUpperCase().equals("NO")) {
+            return 0;
+        } else {
+            System.out.println("Not an option, again")
+        }
 
         scanner.close();
     }
